@@ -4,6 +4,8 @@
 
 My [Oh My Posh](https://ohmyposh.dev/) theme based on [gruvbox theme](https://github.com/morhetz/gruvbox) and [pixelrobots](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/pixelrobots.omp.json) and others.
 
+![Gruvbot](https://github.com/codeschooldropout/dotfiles/blob/assets/omp-gruvbot.png?raw=true)
+
 ## Segments
 
 - [x] os
