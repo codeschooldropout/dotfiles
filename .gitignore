@@ -1,0 +1,5 @@
+exclude/*
+# VSCode
+.vscode/*
+*.code-workspace
+TODO
