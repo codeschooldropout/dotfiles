@@ -28,9 +28,7 @@
             "home_icon": "\uf7db",
             "mapped_locations": {
               "C:\\Users": "\uf007",
-              "C:\\Windows": "\ue62a",
-              "~\\Onedrive": "\ue33d",
-              "~\\Onedrive\\Dev": "\uf121"
+              "C:\\Windows": "\ue62a"
             },
             "mixed_threshold": 8,
             "style": "mixed",
