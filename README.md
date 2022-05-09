@@ -28,7 +28,4 @@ My [Oh My Posh](https://ohmyposh.dev/) theme based on [gruvbox theme](https://gi
 - [ ] Clean up background/foreground in segments
 - [ ] Add battery segment
 - [ ] Add Azure segment
-
-## Dygma Raise Layouts
-
-My [Layouts](dygma/raise/) for the [Dygma Raise](https://dygma.com/) split mechanical keyboard
+- [ ] Add Go segment
