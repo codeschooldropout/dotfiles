@@ -3,3 +3,5 @@ exclude/*
 .vscode/*
 *.code-workspace
 TODO
+.dockerignore
+Dockerfile
