@@ -20,12 +20,13 @@ My [Oh My Posh](https://ohmyposh.dev/) theme based on [gruvbox theme](https://gi
 - [x] prompt
 - [x] root
 - [x] text
-- [ ] battery
+- [x] battery
+- [x] go (only shows icon, not version)
 - [ ] azure
 
 ## Roadmap
 
 - [ ] Clean up background/foreground in segments
-- [ ] Add battery segment
 - [ ] Add Azure segment
-- [ ] Add Go segment
+- [x] Add Go segment
+- [x] Add battery segment
