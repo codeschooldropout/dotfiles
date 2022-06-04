@@ -54,6 +54,13 @@
           "style": "diamond",
           "template": "<#689d6a>\uf554 </>{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }}<#E84855> \uf044 {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#2FDA4E> \uf046 {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
           "type": "git"
+        },        
+        {
+          "type": "go",
+          "style": "diamond",
+          "background": "#2f2f2f",
+          "foreground": "#b1b1b1",
+          "template": "\uFCD1 "
         },
         {
           "background": "#2f2f2f",
@@ -89,6 +96,19 @@
           "style": "diamond",
           "template": " <#689d6a>\uf554</> {{.Name}}",
           "type": "shell"
+        },
+        {
+          "type": "battery",
+          "style": "diamond",
+          "background": "#2f2f2f",
+          "foreground": "#b16286",
+
+          "template": " <#689d6a>\uf554</> {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}",
+          "properties": {
+            "discharging_icon": "\uE231 ",
+            "charging_icon": "\uE234 ",
+            "charged_icon": "\uE22F "
+          }
         },
         {
           "background": "#2f2f2f",
