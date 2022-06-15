@@ -60,7 +60,7 @@
           "style": "diamond",
           "background": "#2f2f2f",
           "foreground": "#b1b1b1",
-          "template": "\uFCD1 "
+          "template": "<#458588> \uFCD1 </>"
         },
         {
           "background": "#2f2f2f",
