@@ -1,6 +1,8 @@
 Import-Module Terminal-Icons
 
-Set-Alias -Name vi -Value code
+Set-Alias -Name vi -Value code -Description "Visual Studio Code"
+Set-Alias -Name dev -Value Set-DevLocation -Description "Set Dev Location"
+Function Set-DevLocation { Set-Location "$env:OneDrive\Dev" }
 
 
 if ($host.Name -eq 'ConsoleHost')
