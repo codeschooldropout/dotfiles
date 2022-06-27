@@ -60,7 +60,15 @@
           "style": "diamond",
           "background": "#2f2f2f",
           "foreground": "#b1b1b1",
-          "template": "<#458588> \uFCD1 </>"
+          "template": "<#458588>\uFCD1 </>"
+        },
+        {
+          "type": "az",
+          "style": "diamond",
+          "powerline_symbol": "\uE0B0",
+          "background": "#2f2f2f",
+          "foreground": "#b1b1b1",
+          "template": "\uFD03 {{ .User.Name }} "
         },
         {
           "background": "#2f2f2f",
