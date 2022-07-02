@@ -3,7 +3,9 @@ Import-Module Terminal-Icons
 Set-Alias -Name vi -Value code -Description "Visual Studio Code"
 Set-Alias -Name dev -Value Set-DevLocation -Description "Set Dev Location"
 Function Set-DevLocation { Set-Location "$env:OneDrive\Dev" }
-
+Function Open-GoPort { Param($Port) New-NetFirewallRule -DisplayName "GoTestingPort$Port" -Direction Inbound -LocalPort $Port -Protocol TCP -Action Allow } 
+Function Close-GoPort { Param($Port) Remove-NetFirewallRule -DisplayName "GoTestingPort$Port" }
+Function Show-GoPort {  Get-NetFirewallRule -DisplayName "GoTestingPort*" | Format-Table -Property DisplayName,Enabled,Profiles,Direction,Action }
 
 if ($host.Name -eq 'ConsoleHost')
 {
